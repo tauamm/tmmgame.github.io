@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Tauã Mendonça</title>
+    <link rel="" href="">
+    <!-- Bootstrap -->    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <!-- CSS -->
+	 <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- jS -->
+		<script language='Javascript'>
+			function iniciaJogo(){
+				var nivel_jogo = document.getElementById('nivel_jogo').value;
+				window.location.href = 'jogo.html?'+nivel_jogo; 				
+			}
+		</script>
+	</head>
+<body>
+	
+
+	
+	<div class="container">
+	  <div class="centralizar" id="box"> 	   	
+		<div class="input-group mb-3">
+  			<div class="input-group-prepend">
+    			<label class="input-group-text" for="nivel_jogo">Nivel do jogo</label>
+  			</div>
+  			<select class="custom-select" id="nivel_jogo">
+   			 
+    			<option value="1">Facil</option>
+    			<option value="2">Medio</option>
+    			<option value="3">Dificil</option>
+  			</select>
+		</div>
+			<img class="botao" src="imagens/iniciar.png" onclick="iniciaJogo()">
+	  </div>		   
+	</div>
+	
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+	</body>
+	
+</html>

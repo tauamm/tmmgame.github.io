@@ -1,0 +1,75 @@
+/***************************
+*
+* @Author Taua Mendonca
+* @version 0.1
+*
+***************************/
+*{
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background: url('../imagens/fundo.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.cleaner{
+	clear: both;
+}
+
+/*  2. Grid */
+
+
+
+#box{
+	margin-top: 25%;
+	width: 400px;
+	height: 250px;
+	background: white;
+	padding: 60px; 
+	box-sizing: border-box; 
+	border-radius: 20px 80px;
+	border: solid 6px #D2691E;
+
+}
+
+.centralizar{
+
+	margin: 200px auto;
+}
+.centralizar_jogo{	
+	margin: 200px 150px auto;
+}  
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+.botao{	    
+	    width: 80px;
+		height:80px;
+		display:block;		
+		background-size: contain;
+		margin-left:auto; 
+  	    margin-right:auto;	
+		float:center; 
+}
+.capa_game{
+	margin-top: 5%;
+	float: left; 
+	width: 600px; 
+	height: 500px; 
+	background: white ; 
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: solid 6px #D2691E;
+}
